@@ -4,3 +4,9 @@ D:\Projects\webapi和EF测试例子\webapi\test\bin\Debug\test.pdb
 D:\Projects\webapi和EF测试例子\webapi\test\obj\Debug\test.csprojResolveAssemblyReference.cache
 D:\Projects\webapi和EF测试例子\webapi\test\obj\Debug\test.exe
 D:\Projects\webapi和EF测试例子\webapi\test\obj\Debug\test.pdb
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\test.exe.config
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\test.exe
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\test.pdb
+D:\Projects\GIT\WebApi-EF\webapi\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+D:\Projects\GIT\WebApi-EF\webapi\test\obj\Debug\test.exe
+D:\Projects\GIT\WebApi-EF\webapi\test\obj\Debug\test.pdb

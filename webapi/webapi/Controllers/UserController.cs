@@ -39,11 +39,17 @@ namespace webapi.Controllers
         [HttpGet]
         public IEnumerable<UserModel> GetUserList()
         {
-            return DbContext.UserList.ToList().Select(t=> new UserModel
+            return DbContext.UserList.ToList().Select(t => new UserModel
             {
-                id=t.id,
-                name=t.name
+                id = t.id,
+                name = t.name
             });
+            //var list = DbContext.UserList.SqlQuery("select top 1 * from Users").ToList().Select(t => new UserModel
+            //{
+            //    id=t.id,
+            //    name=t.name
+            //});
+            //return list;
         }
 
         [HttpPost]
