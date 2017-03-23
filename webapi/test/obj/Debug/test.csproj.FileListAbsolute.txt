@@ -1,0 +1,6 @@
+D:\Projects\webapi和EF测试例子\webapi\test\bin\Debug\test.exe.config
+D:\Projects\webapi和EF测试例子\webapi\test\bin\Debug\test.exe
+D:\Projects\webapi和EF测试例子\webapi\test\bin\Debug\test.pdb
+D:\Projects\webapi和EF测试例子\webapi\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+D:\Projects\webapi和EF测试例子\webapi\test\obj\Debug\test.exe
+D:\Projects\webapi和EF测试例子\webapi\test\obj\Debug\test.pdb
