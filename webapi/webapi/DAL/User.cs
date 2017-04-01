@@ -5,10 +5,8 @@ using System.Web;
 
 namespace webapi.DAL
 {
-    public class User
+    public class User:Entity<int>
     {
-        public int id { get; set; }
-
         public string name { get; set; }
 
         public string age { get; set; }

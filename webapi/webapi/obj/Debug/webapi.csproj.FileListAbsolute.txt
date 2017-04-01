@@ -206,6 +206,8 @@ D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\webapi.dll.config
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\webapi.dll
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\webapi.pdb
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\Antlr3.Runtime.dll
+D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\Autofac.dll
+D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\Autofac.Integration.Mvc.dll
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\EntityFramework.dll
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\EntityFramework.SqlServer.dll
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\Microsoft.AI.Agent.Intercept.dll
@@ -229,6 +231,8 @@ D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\System.Web.WebPages.Deployment.dll
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\System.Web.WebPages.dll
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\System.Web.WebPages.Razor.dll
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\WebGrease.dll
+D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\Autofac.xml
+D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\Autofac.Integration.Mvc.xml
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\EntityFramework.xml
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\EntityFramework.SqlServer.xml
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
@@ -259,9 +263,7 @@ D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\zh-Hans\System.Web.Razor.resources.d
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\zh-Hans\System.Web.WebPages.resources.dll
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 D:\Projects\GIT\WebApi-EF\webapi\webapi\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-D:\Projects\GIT\WebApi-EF\webapi\webapi\obj\Debug\webapi.csprojResolveAssemblyReference.cache
-D:\Projects\GIT\WebApi-EF\webapi\webapi\obj\Debug\webapi.Migrations.tt1.resources
-D:\Projects\GIT\WebApi-EF\webapi\webapi\obj\Debug\webapi.Migrations.addage.resources
+D:\Projects\GIT\WebApi-EF\webapi\webapi\obj\Debug\webapi.Migrations.initial.resources
 D:\Projects\GIT\WebApi-EF\webapi\webapi\obj\Debug\webapi.csproj.GenerateResource.Cache
 D:\Projects\GIT\WebApi-EF\webapi\webapi\obj\Debug\webapi.dll
 D:\Projects\GIT\WebApi-EF\webapi\webapi\obj\Debug\webapi.pdb

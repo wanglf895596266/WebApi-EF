@@ -7,6 +7,14 @@ D:\Projects\webapi和EF测试例子\webapi\test\obj\Debug\test.pdb
 D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\test.exe.config
 D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\test.exe
 D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\test.pdb
-D:\Projects\GIT\WebApi-EF\webapi\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\Antlr3.Runtime.dll
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\System.Web.Optimization.dll
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\WebGrease.dll
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\Antlr3.Runtime.pdb
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\System.Web.Optimization.xml
+D:\Projects\GIT\WebApi-EF\webapi\test\bin\Debug\zh-Hans\System.Web.Optimization.resources.dll
 D:\Projects\GIT\WebApi-EF\webapi\test\obj\Debug\test.exe
 D:\Projects\GIT\WebApi-EF\webapi\test\obj\Debug\test.pdb

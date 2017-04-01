@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace test
 {
@@ -74,6 +75,8 @@ namespace test
             #endregion
 
 
+            var back =
+                client.GetAsync("http://localhost:64104/api/Log/LogList").Result.Content.ReadAsStringAsync().Result;
 
 
         }
