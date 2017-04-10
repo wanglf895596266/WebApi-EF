@@ -32,19 +32,19 @@ namespace webapi
 
             DependencyRegistrar.Register();
 
-            var builder = new ContainerBuilder();
+            //var builder = new ContainerBuilder();
 
-            builder.RegisterControllers(Assembly.GetExecutingAssembly());
-            builder.RegisterType<LogController>()
-                .WithParameter(ResolvedParameter.ForNamed<ICacheManager>("nop_cache_static"));
+            //builder.RegisterControllers(Assembly.GetExecutingAssembly());
+            //builder.RegisterType<LogController>()
+            //    .WithParameter(ResolvedParameter.ForNamed<ICacheManager>("nop_cache_static"));
 
-            builder.RegisterType<LogService>().As<ILogService>().InstancePerLifetimeScope();
-            var container = builder.Build();
-            DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+            //builder.RegisterType<LogService>().As<ILogService>().InstancePerLifetimeScope();
+            //var container = builder.Build();
+            //DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
 
-            var webApiResolver = new AutofacWebApiDependencyResolver(container);
-            apiResolver = webApiResolver;
-            GlobalConfiguration.Configuration.DependencyResolver = webApiResolver;
+            //var webApiResolver = new AutofacWebApiDependencyResolver(container);
+            //apiResolver = webApiResolver;
+            //GlobalConfiguration.Configuration.DependencyResolver = webApiResolver;
         }
 
       

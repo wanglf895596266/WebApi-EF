@@ -4,6 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Mvc;
+using Newtonsoft.Json;
 using webapi.DAL;
 using webapi.Models;
 
@@ -36,7 +38,7 @@ namespace webapi.Controllers
         //执行命令：Update-Database，更新数据库信息
         private AccountContext DbContext = new AccountContext();
 
-        [HttpGet]
+        [System.Web.Http.HttpGet]
         public IEnumerable<UserModel> GetUserList()
         {
             return DbContext.UserList.ToList().Select(t => new UserModel
@@ -52,10 +54,26 @@ namespace webapi.Controllers
             //return list;
         }
 
-        [HttpPost]
-        public Result AddUser(UserModel model)
+        public Result<List<UserModel>> GetListToJson()
         {
-            var result = new Result();
+            var model = DbContext.UserList.ToList().Select(t => new UserModel
+            {
+                id = t.id,
+                name = t.name
+            }).ToList();
+
+            var result = new Result<List<UserModel>>
+            {
+                Flag = "1",
+                Data = model
+            };
+            return  result;
+        }
+
+        [System.Web.Http.HttpPost]
+        public Result<String> AddUser(UserModel model)
+        {
+            var result = new Result<string>();
             try
             {
                 var user = new User();
@@ -74,10 +92,10 @@ namespace webapi.Controllers
            
         }
 
-        [HttpPost]
-        public Result DelUser(UserModel model)
+        [System.Web.Http.HttpPost]
+        public Result<String> DelUser(UserModel model)
         {
-            var result = new Result();
+            var result = new Result<String>();
             try
             {
                 var user = DbContext.UserList.FirstOrDefault(t=>t.name==model.name);
@@ -94,10 +112,10 @@ namespace webapi.Controllers
             }
         }
 
-        [HttpPost]
-        public Result UpdateUser(UserModel model)
+        [System.Web.Http.HttpPost]
+        public Result<String> UpdateUser(UserModel model)
         {
-            var result = new Result();
+            var result = new Result<String>();
             try
             {
                 var user = DbContext.UserList.FirstOrDefault(t => t.id == model.id);

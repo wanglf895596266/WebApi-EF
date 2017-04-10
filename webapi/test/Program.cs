@@ -28,6 +28,15 @@ namespace test
             public string name { get; set; }
         }
 
+        public class Result
+        {
+            public string Flag { get; set; }
+
+            public string Error { get; set; }
+
+            public List<User> Data { get; set; }
+        }
+
         static void Main(string[] args)
         {
             HttpClient client = new HttpClient();
@@ -54,6 +63,10 @@ namespace test
             //var confirmResult =
             //  JsonConvert.DeserializeObject<List<User>>(back);
 
+            var back = client.GetAsync("http://localhost:64104/api/User/GetListToJson").Result.Content.ReadAsStringAsync()
+                    .Result;
+            var confirmResult =
+              JsonConvert.DeserializeObject<Result>(back);
             //往数据库中的User添加一条记录信息
             //var back =
             //    client.PostAsync("http://localhost:64104/api/User/AddUser", new FormUrlEncodedContent(parameters))
@@ -75,8 +88,8 @@ namespace test
             #endregion
 
 
-            var back =
-                client.GetAsync("http://localhost:64104/api/Log/LogList").Result.Content.ReadAsStringAsync().Result;
+            //var back =
+            //    client.GetAsync("http://localhost:64104/api/Log/LogList").Result.Content.ReadAsStringAsync().Result;
 
 
         }
